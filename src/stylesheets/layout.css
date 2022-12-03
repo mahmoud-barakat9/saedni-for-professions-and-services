@@ -1,0 +1,280 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins&display=swap);
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body,
+html {
+  overflow-x: hidden;
+}
+.btn-primary {
+  background-color: #2a4849;
+}
+.btn-primary:hover {
+  background-color: green;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: black;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+input {
+  box-shadow: none !important;
+  opacity: 0.8;
+}
+input,
+select {
+  height: 35px !important;
+}
+button {
+  background-color: #2a4849;
+  color: white;
+  height: 30px !important;
+  font-size: 12px !important;
+
+  border: 1px solid rgba(255, 255, 255, 0.507) !important;
+  border-radius: 0 !important;
+  padding: 5px;
+}
+button:hover {
+  background-color: #da7635;
+}
+button:focus {
+  box-shadow: none !important;
+}
+.ccc {
+  background-color: #dcedff2f;
+}
+.bs {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.regs {
+  margin-left: 7px;
+}
+h3 {
+  font-size: 16px;
+}
+.flex-with-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-with-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-white {
+  color: white !important;
+}
+.z-2 {
+  z-index: 2;
+}
+/* login , register============== */
+.login {
+  background-color: dcedff;
+}
+.register {
+  background-color: dcedff;
+}
+.auth-bottom {
+  height: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #2a4849;
+  z-index: 0;
+}
+.register-bottom {
+  height: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #2a4849;
+  z-index: 0;
+}
+.login-lottie {
+  height: 100vh !important;
+}
+.form-control {
+  margin: 10px 0px;
+}
+.form-control:focus {
+  box-shadow: none !important;
+}
+form {
+  box-shadow: 0px 0px 5px 2px #adb0b1;
+  padding: 50px;
+  background-color: white;
+}
+/* home ================================================== */
+.product {
+  background-color: #dcedff80;
+}
+.product-div {
+  position: relative;
+}
+
+.product-div:hover .product-actions {
+  opacity: 1;
+}
+
+.product-actions {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.808);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+}
+.product-actions a {
+  color: white;
+}
+.product-name {
+  line-height: 1.5em;
+  min-height: 4.5em;
+}
+.product img {
+  height: 255px;
+  width: 101%;
+  text-align: center;
+  margin-right: 8px;
+}
+.product-info img {
+  height: 70vh;
+}
+.product-content p {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 27px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* cart page */
+
+tr {
+  vertical-align: middle;
+}
+.total-amount {
+  background-color: tan;
+  padding: 10px;
+  font-weight: bold;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.navbar {
+  background-color: #2a4849 !important;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  box-shadow: 0 0 15px #000;
+}
+.navbar a {
+  color: #fff !important;
+}
+.navbar-toggler-icon {
+  color: #fff !important;
+}
+.content {
+  padding-top: 100px;
+}
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  width: 100px;
+  height: 100px;
+}
+.spinner-border {
+  height: 100px;
+  width: 100px;
+}
+.h100 {
+  height: 100vh !important;
+}
+/*---footer----*/
+.footer {
+  margin-top: 35px;
+  padding: 40px 10px 30px 10px;
+
+  text-align: center;
+  background-color: #2a4849;
+  color: #fff;
+}
+.footer p {
+  margin: 0;
+}
+/*image slider*/
+.slider {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-slider {
+  width: 1000px;
+  height: 600px;
+  border-radius: 10px;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+
+/*ButtonGroup*/
+.ButtonGroup1 {
+  padding-top: 5px;
+  margin-right: 5px;
+}
